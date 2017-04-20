@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/peter/Google_Drive/Coding/Android_Projects/Test_Apps/TestAVD/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/peter/Google_Drive/Coding/Android_Projects/Test_Apps/TestAVD/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8fbf343751a8a43777d11290b7ef4d31c8e60639/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/peter/Google_Drive/Coding/Android_Projects/Test_Apps/TestAVD/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4cc129cd4c7002c555b326c5528c35fc08977ee6">
+        <dex dex="/home/peter/Google_Drive/Coding/Android_Projects/Test_Apps/TestAVD/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18c1b6e261011ede94f1788fe796a33097a575c6/classes.dex" />
+    </item>
+
+</items>
