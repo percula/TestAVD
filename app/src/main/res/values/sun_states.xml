@@ -1,0 +1,9 @@
+<resources>
+
+    <declare-styleable name="SunIconState">
+        <attr name="state_full_sun" format="boolean"/>
+        <attr name="state_half_sun" format="boolean"/>
+        <attr name="state_no_sun" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/full_sun"
+        android:drawable="@drawable/vd_sun_full"
+        />
+
+    <item
+        android:id="@+id/half_sun"
+        android:drawable="@drawable/vd_sun_half"
+        app:state_half_sun="true"/>
+
+    <item
+        android:id="@+id/empty_sun"
+        android:drawable="@drawable/vd_sun_empty"
+        app:state_no_sun="true"/>
+
+    <transition
+        android:drawable="@drawable/avd_sun_full_to_half"
+        android:fromId="@id/full_sun"
+        android:toId="@id/half_sun"/>
+
+    <transition
+        android:drawable="@drawable/avd_sun_half_to_empty"
+        android:fromId="@id/half_sun"
+        android:toId="@id/empty_sun"/>
+
+    <transition
+        android:drawable="@drawable/avd_sun_empty_to_half"
+        android:fromId="@id/empty_sun"
+        android:toId="@id/half_sun"/>
+
+    <transition
+        android:drawable="@drawable/avd_sun_half_to_full"
+        android:fromId="@id/half_sun"
+        android:toId="@id/full_sun"/>
+
+</animated-selector>
